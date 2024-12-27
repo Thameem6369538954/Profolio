@@ -1,0 +1,8 @@
+@font-face{
+  font-family: 'built';
+  src: url("../public//Fonts//built\ titling\ bd.ttf") format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
