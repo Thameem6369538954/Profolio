@@ -3,6 +3,7 @@ import specslan from "../PrImages/specslan.png"
 import AL from "../PrImages/AL.png"
 import Cov from "../PrImages/Cov.png"
 import CXO from "../PrImages/CXO.png"
+import { Link } from 'react-router-dom'
 const Projects = () => {
   return (
     <div>
@@ -25,7 +26,7 @@ const Projects = () => {
       <img src={specslan} className="min-h-[10px] w-[90%] p-4 rounded-xl" alt="" />
       <h1 className='font-built'>E-commerce Site (Specsland)</h1>
       <p className='p-4 font-Verna text-2xl'>I developed a fully functional e-commerce website with user authentication and product management using Express, Node.js, and MongoDB. It features secure login and signup, and allows users or admins to manage products. This project highlights my skills in backend development, database management, and web design.</p>
-      <div className='flex items-center justify-around w-full'>
+      <div className='sm:flex items-center justify-around w-  p-3'>
       <h2 className='font-built'>TechStack :</h2>    
         <ul className='flex items-center justify-center gap-2 flex-wrap'>
                 <li className='bg-yellow-200 rounded-lg px-2'>html</li>
@@ -38,10 +39,10 @@ const Projects = () => {
         </ul>
       </div>
     </div>
-    <div className='flex items-center justify-around'>
+    <div className='bg-red-500 m-10 rounded flex items-center justify-around'>
 
 
-    <div class="flex items-center justify-center gap-4 min-h-[15vh]">
+    <div class="sm:flex items-center justify-center gap-4 min-h-[15vh]">
   <div class="relative group">
     <button
       class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
@@ -52,8 +53,11 @@ const Projects = () => {
 
       <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
         <div class="relative z-10 flex items-center space-x-2">
-          <span class="transition-all duration-500 group-hover:translate-x-1">View Project</span >
-          <svg
+        <div class="group">
+  <span class="transition-all duration-500 group-hover:translate-x-1">
+    <a href='https://specsland-app.vercel.app' target="_blank">View Project</a>
+  </span>
+</div>           <svg
             class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
             data-slot="icon"
             aria-hidden="true"
@@ -134,7 +138,7 @@ const Projects = () => {
         </ul>
       </div>
     </div>
-    <div class="flex items-center justify-center gap-4 min-h-[15vh]">
+    <div class="bg-red-500 m-10 rounded flex items-center justify-center gap-4 min-h-[15vh] m-10">
   <div class="relative group">
     <button
       class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
@@ -145,8 +149,11 @@ const Projects = () => {
 
       <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
         <div class="relative z-10 flex items-center space-x-2">
-          <span class="transition-all duration-500 group-hover:translate-x-1">View Project</span>
-          <svg
+        <div class="group">
+  <span class="transition-all duration-500 group-hover:translate-x-1">
+    <a href='https:new-active-listenerns-production.vercel.app' target="_blank">View Project</a>
+  </span>
+</div>           <svg
             class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
             data-slot="icon"
             aria-hidden="true"
@@ -219,7 +226,7 @@ const Projects = () => {
         </ul>
       </div>
     </div>
-    <div class="flex items-center justify-center gap-4 min-h-[15vh]">
+    <div class=" bg-red-500 m-10 rounded flex items-center justify-center gap-4 min-h-[15vh]">
   <div class="relative group">
     <button
       class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
@@ -230,8 +237,11 @@ const Projects = () => {
 
       <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
         <div class="relative z-10 flex items-center space-x-2">
-          <span class="transition-all duration-500 group-hover:translate-x-1">View Project</span>
-          <svg
+        <div class="group">
+  <span class="transition-all duration-500 group-hover:translate-x-1">
+    <a href='https:coveten.vercel.app' target="_blank">View Project</a>
+  </span>
+</div>           <svg
             class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
             data-slot="icon"
             aria-hidden="true"
@@ -295,7 +305,7 @@ const Projects = () => {
   >
     <div className="w-full min-h-[170px] grid place-items-center p-4">
       <img src={CXO} className="min-h-[10px] w-[90%] rounded-xl" alt="" />
-      <h1 className='font-built'>E-commerce Site (Specsland)</h1>
+      <h1 className='font-built'>CXO Brandind (Subscribe Based App)</h1>
       <p className='p-4 font-Verna text-2xl'>I created a job search web app that connects job seekers with employers. The platform allows users to browse job listings, apply for positions, and manage their profiles, helping streamline the job search process.</p>
       <div className='flex items-center justify-around w-full'>
       <h2 className='font-built'>TechStack :</h2>    
@@ -307,7 +317,7 @@ const Projects = () => {
         </ul>
       </div>
     </div>
-    <div class="flex items-center justify-center gap-4 min-h-[15vh]">
+    <div class="flex items-center bg-red-500 m-10 justify-center gap-4 min-h-[15vh]">
   <div class="relative group">
     <button
       class="relative inline-block p-px font-semibold leading-6 text-white bg-gray-800 shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95"
@@ -318,8 +328,11 @@ const Projects = () => {
 
       <span class="relative z-10 block px-6 py-3 rounded-xl bg-gray-950">
         <div class="relative z-10 flex items-center space-x-2">
-          <span class="transition-all duration-500 group-hover:translate-x-1">View Project</span>
-          <svg
+        <div class="group">
+  <span class="transition-all duration-500 group-hover:translate-x-1">
+    <a href='https:cxo-branding-ou3w.vercel.app' target="_blank">View Project</a>
+  </span>
+</div>          <svg
             class="w-6 h-6 transition-transform duration-500 group-hover:translate-x-1"
             data-slot="icon"
             aria-hidden="true"

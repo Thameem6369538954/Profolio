@@ -1,13 +1,13 @@
 @font-face{
   font-family: 'built', sans-serif;
-  src: url("../public/Fonts/built\ titling\ bd.ttf") format('truetype');
+  src: url("../src/Fonts/Varna-PersonalUse.ttf") format('truetype');
 }
 @font-face {
   font-family: 'Verna';
-  src: url('../public/Fonts/Varna-PersonalUse.ttf') format('truetype');
+  src: url('../src/Fonts/Varna-PersonalUse.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Alpha';
-  src: url('../public/Fonts/Alpha\ Brights.ttf') format('truetype');
+  src: url('../src/Fonts/Alpha\ Brights.ttf') format('truetype');
 }
